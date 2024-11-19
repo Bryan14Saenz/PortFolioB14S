@@ -1,0 +1,667 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.float {
+  position: fixed;
+  z-index: 10;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #fff;
+  background-color: #000;
+}
+
+.float:nth-child(1) {
+  top: 15%;
+  left: 8%;
+  width: 50px;
+  height: 50px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(2) {
+  top: 74%;
+  left: 24%;
+  width: 50px;
+  height: 50px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(3) {
+  top: 27%;
+  left: 19%;
+  width: 50px;
+  height: 50px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(4) {
+  top: 97%;
+  left: 4%;
+  width: 50px;
+  height: 50px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(5) {
+  top: 45%;
+  left: 82%;
+  width: 50px;
+  height: 50px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(5) {
+  top: 11%;
+  position: fixed;
+  left: 24%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(6) {
+  top: 61%;
+  position: fixed;
+  left: 59%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(7) {
+  top: 27%;
+  position: fixed;
+  left: 46%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(8) {
+  top: 67%;
+  position: fixed;
+  left: 90%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(9) {
+  top: 10%;
+  position: fixed;
+  left: 79%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(10) {
+  top: 61%;
+  position: fixed;
+  left: 88%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(10) {
+  top: 83%;
+  position: fixed;
+  left: 99%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(11) {
+  top: 13%;
+  position: fixed;
+  left: 58%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(12) {
+  top: 7%;
+  position: fixed;
+  left: 35%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(13) {
+  top: 87%;
+  position: fixed;
+  left: 92%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(14) {
+  top: 28%;
+  position: fixed;
+  left: 37%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(15) {
+  top: 78%;
+  position: fixed;
+  left: 87%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(15) {
+  top: 45%;
+  position: fixed;
+  left: 72%;
+  width: 80px;
+  height: 80px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(16) {
+  top: 50%;
+  position: fixed;
+  left: 90%;
+  width: 80px;
+  height: 80px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(17) {
+  top: 65%;
+  position: fixed;
+  left: 62%;
+  width: 80px;
+  height: 80px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(18) {
+  top: 25%;
+  position: fixed;
+  left: 7%;
+  width: 80px;
+  height: 80px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(19) {
+  top: 71%;
+  position: fixed;
+  left: 82%;
+  width: 80px;
+  height: 80px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(20) {
+  top: 23%;
+  position: fixed;
+  left: 97%;
+  width: 80px;
+  height: 80px;
+  animation: movimiento2 15s infinite linear;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100dvh;
+  padding: 10px;
+  color: #fff;
+  background-color: #000;
+}
+#header .sidebar {
+  position: fixed;
+  text-align: center;
+  z-index: 30;
+  width: 100px;
+  margin: auto 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #fff;
+}
+#header .sidebar input {
+  display: none;
+}
+#header .sidebar label {
+  font-size: 2rem;
+  transition: all 0.5s;
+  color: #fff;
+}
+#header .sidebar label:hover {
+  color: #555555;
+}
+#header .sidebar .bi-list {
+  display: block;
+}
+#header .sidebar .bi-x {
+  display: none;
+}
+#header .sidebar input[type=checkbox]:checked ~ label .bi-list {
+  display: none;
+}
+#header .sidebar input[type=checkbox]:checked ~ label .bi-x {
+  display: block;
+}
+#header .sidebar ul {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 16px;
+  gap: 20px;
+}
+#header .sidebar ul li a {
+  display: flex;
+  gap: 25px;
+  font-size: 2rem;
+  transition: all 0.5s;
+  color: #fff;
+}
+#header .sidebar ul li a:hover {
+  transform: translateX(5px);
+  scale: 1.3;
+  color: #3e4147;
+}
+#header .inicio {
+  position: relative;
+  z-index: 30;
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+  gap: 20px;
+}
+#header .inicio .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#header .inicio .redes ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+#header .inicio .redes ul li a {
+  font-size: 2rem;
+  transition: all 0.5s;
+  color: #fff;
+}
+#header .inicio .redes ul li a:hover {
+  color: #3e4147;
+}
+#header .inicio .redes ul li input {
+  display: none;
+}
+#header .inicio .redes ul li label {
+  font-size: 2rem;
+  transition: all 0.5s;
+  color: #fff;
+}
+#header .inicio .redes ul li label:hover {
+  color: #3e4147;
+}
+#header .inicio .redes ul li .bi-moon {
+  display: none;
+}
+#header .inicio .redes ul li .bi-sun {
+  display: block;
+}
+#header .inicio .redes ul li #modoColor:checked ~ label .bi-moon {
+  display: block;
+}
+#header .inicio .redes ul li #modoColor:checked ~ label .bi-sun {
+  display: none;
+}
+#header .inicio .contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 20px;
+}
+#header .inicio .contenido .presentación {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 20px;
+}
+#header .inicio .contenido .presentación img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#header .inicio .contenido .presentación .texto h2 {
+  font-size: 2rem;
+}
+#header .inicio .contenido .presentación .texto h1 {
+  font-size: 3.5rem;
+}
+#header .inicio .contenido .presentación .texto p {
+  font-size: 2rem;
+}
+#header .inicio .contenido .img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+#main {
+  width: 100%;
+  padding: 20px;
+  background-color: #000;
+  border-top: 1px solid #ffff3b;
+  border-bottom: 1px solid #ffff3b;
+}
+#main #sobreMi {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100dvh;
+  padding: 20px;
+  gap: 20px;
+  z-index: 20;
+  color: #fff;
+  background-color: transparent;
+}
+#main #sobreMi h2 {
+  font-size: 3rem;
+}
+#main #sobreMi p {
+  width: 700px;
+  font-size: 1.8rem;
+}
+#main #sobreMi .dropdown {
+  display: inline;
+  margin: 10px auto;
+  padding: 10px;
+  gap: 10px;
+}
+#main #sobreMi .dropdown button {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #2b15c2;
+  color: #fff;
+}
+#main #habilidades {
+  position: relative;
+  text-align: center;
+  height: 100dvh;
+  padding: 20px;
+  z-index: 20;
+  color: #fff;
+  background-color: transparent;
+}
+#main #habilidades h2 {
+  margin-top: 50px;
+  font-size: 3rem;
+}
+#main #habilidades .contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #fff;
+}
+#main #habilidades .contenedor h3 {
+  font-size: 2rem;
+}
+#main #habilidades .contenedor .barras {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#main #habilidades .contenedor .barras .progress {
+  height: 30px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: #ffff3b;
+}
+#main #proyectos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100dvh;
+  padding: 20px;
+  gap: 20px;
+  z-index: 20;
+  color: #fff;
+}
+#main #proyectos h3 {
+  font-size: 3rem;
+}
+#main #proyectos .contenedor {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  z-index: 30;
+  width: 700px;
+  margin: 0px auto;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #fff;
+}
+#main #proyectos .contenedor .proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 300px;
+}
+#main #proyectos .contenedor .proyectos:hover {
+  scale: 1.1;
+}
+#main #proyectos .contenedor .proyectos a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+  color: #fff;
+}
+#main #proyectos .contenedor .proyectos a:hover {
+  color: #555555;
+}
+
+#footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  z-index: 20;
+  color: #ffff3b;
+  background-color: #000;
+}
+#footer .contenedor {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  height: 200px;
+  top: -50px;
+  gap: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #2b15c2;
+  box-shadow: 0px 0px 10px #000;
+}
+#footer .contenedor h1 {
+  font-size: 2rem;
+}
+#footer .contenedor p {
+  width: 300px;
+  font-size: 1.8rem;
+}
+#footer .contenedor a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+  border: 1px solid #fff;
+  color: #fff;
+}
+#footer .contenedor a:hover {
+  color: #2b15c2;
+  background-color: #fff;
+}
+#footer .contacto {
+  position: relative;
+  z-index: 30;
+  margin-top: 150px;
+}
+#footer .contacto p {
+  position: relative;
+  z-index: 30;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#footer .contacto p:first-child {
+  position: relative;
+  z-index: 30;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+#footer .contacto ul {
+  position: relative;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#footer .contacto ul li a {
+  font-size: 2rem;
+  transition: all 0.5s ease;
+  color: #fff;
+}
+#footer .contacto ul li a:hover {
+  color: #3e4147;
+}
+
+.scale-up-hor-center {
+  animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both 0.5s;
+}
+
+.tracking-in-contract {
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both 0.5s;
+}
+
+.kenburns-top {
+  animation: kenburns-top 5s ease-out both 0.5s;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes movimiento2 {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    transform: scaleX(0.4);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2024-11-19 15:14:28
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */
