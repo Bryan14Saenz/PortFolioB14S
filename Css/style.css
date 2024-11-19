@@ -17,83 +17,92 @@
 }
 
 .float:nth-child(1) {
-  top: 15%;
-  left: 8%;
+  top: 77%;
+  left: 55%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(2) {
-  top: 74%;
-  left: 24%;
+  top: 84%;
+  left: 66%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(3) {
-  top: 27%;
-  left: 19%;
+  top: 77%;
+  left: 67%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(4) {
-  top: 97%;
-  left: 4%;
+  top: 24%;
+  left: 35%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(5) {
-  top: 45%;
-  left: 82%;
+  top: 41%;
+  left: 12%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(5) {
-  top: 11%;
+  top: 38%;
   position: fixed;
-  left: 24%;
+  left: 43%;
   width: 60px;
   height: 60px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(6) {
-  top: 61%;
+  top: 26%;
   position: fixed;
-  left: 59%;
+  left: 70%;
   width: 60px;
   height: 60px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(7) {
-  top: 27%;
+  top: 86%;
   position: fixed;
-  left: 46%;
+  left: 56%;
   width: 60px;
   height: 60px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(8) {
-  top: 67%;
+  top: 50%;
   position: fixed;
-  left: 90%;
+  left: 10%;
   width: 60px;
   height: 60px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(9) {
-  top: 10%;
+  top: 44%;
+  position: fixed;
+  left: 25%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(10) {
+  top: 47%;
   position: fixed;
   left: 79%;
   width: 60px;
@@ -102,16 +111,25 @@
 }
 
 .float:nth-child(10) {
-  top: 61%;
+  top: 59%;
   position: fixed;
-  left: 88%;
-  width: 60px;
-  height: 60px;
-  animation: movimiento2 15s infinite linear;
+  left: 87%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
 }
 
-.float:nth-child(10) {
-  top: 83%;
+.float:nth-child(11) {
+  top: 27%;
+  position: fixed;
+  left: 72%;
+  width: 70px;
+  height: 70px;
+  animation: movimiento 15s infinite linear;
+}
+
+.float:nth-child(12) {
+  top: 52%;
   position: fixed;
   left: 99%;
   width: 70px;
@@ -119,35 +137,17 @@
   animation: movimiento 15s infinite linear;
 }
 
-.float:nth-child(11) {
-  top: 13%;
-  position: fixed;
-  left: 58%;
-  width: 70px;
-  height: 70px;
-  animation: movimiento 15s infinite linear;
-}
-
-.float:nth-child(12) {
-  top: 7%;
-  position: fixed;
-  left: 35%;
-  width: 70px;
-  height: 70px;
-  animation: movimiento 15s infinite linear;
-}
-
 .float:nth-child(13) {
-  top: 87%;
+  top: 84%;
   position: fixed;
-  left: 92%;
+  left: 32%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(14) {
-  top: 28%;
+  top: 15%;
   position: fixed;
   left: 37%;
   width: 70px;
@@ -156,63 +156,63 @@
 }
 
 .float:nth-child(15) {
-  top: 78%;
+  top: 1%;
   position: fixed;
-  left: 87%;
+  left: 96%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(15) {
-  top: 45%;
+  top: 86%;
   position: fixed;
-  left: 72%;
+  left: 74%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(16) {
-  top: 50%;
+  top: 38%;
   position: fixed;
-  left: 90%;
+  left: 92%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(17) {
-  top: 65%;
+  top: 60%;
   position: fixed;
-  left: 62%;
+  left: 14%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(18) {
-  top: 25%;
+  top: 20%;
   position: fixed;
-  left: 7%;
+  left: 8%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(19) {
-  top: 71%;
+  top: 80%;
   position: fixed;
-  left: 82%;
+  left: 68%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(20) {
-  top: 23%;
+  top: 78%;
   position: fixed;
-  left: 97%;
+  left: 99%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
