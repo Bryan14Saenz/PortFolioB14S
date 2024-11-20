@@ -407,6 +407,20 @@ body{
         background-position: center;
         background-repeat: no-repeat;
       }
+
+      .proyectos:nth-child(2) {
+        background: url(../Img/pagina2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .proyectos:nth-child(3) {
+        background: url(../Img/pagina3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
     }
   }
 }

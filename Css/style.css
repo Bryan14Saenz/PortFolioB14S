@@ -20,83 +20,47 @@
 }
 
 .float:nth-child(1) {
-  top: 55%;
-  left: 30%;
+  top: 75%;
+  left: 99%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(2) {
-  top: 73%;
-  left: 31%;
+  top: 63%;
+  left: 87%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(3) {
-  top: 13%;
-  left: 34%;
+  top: 99%;
+  left: 95%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(4) {
-  top: 33%;
-  left: 6%;
+  top: 39%;
+  left: 34%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(5) {
-  top: 50%;
-  left: 62%;
+  top: 85%;
+  left: 10%;
   width: 50px;
   height: 50px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(5) {
-  top: 99%;
-  position: fixed;
-  left: 8%;
-  width: 60px;
-  height: 60px;
-  animation: movimiento2 15s infinite linear;
-}
-
-.float:nth-child(6) {
-  top: 40%;
-  position: fixed;
-  left: 90%;
-  width: 60px;
-  height: 60px;
-  animation: movimiento2 15s infinite linear;
-}
-
-.float:nth-child(7) {
-  top: 7%;
-  position: fixed;
-  left: 98%;
-  width: 60px;
-  height: 60px;
-  animation: movimiento2 15s infinite linear;
-}
-
-.float:nth-child(8) {
-  top: 84%;
-  position: fixed;
-  left: 79%;
-  width: 60px;
-  height: 60px;
-  animation: movimiento2 15s infinite linear;
-}
-
-.float:nth-child(9) {
-  top: 12%;
+  top: 66%;
   position: fixed;
   left: 2%;
   width: 60px;
@@ -104,118 +68,154 @@
   animation: movimiento2 15s infinite linear;
 }
 
-.float:nth-child(10) {
-  top: 91%;
+.float:nth-child(6) {
+  top: 10%;
   position: fixed;
-  left: 34%;
+  left: 52%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(7) {
+  top: 13%;
+  position: fixed;
+  left: 32%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(8) {
+  top: 49%;
+  position: fixed;
+  left: 35%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(9) {
+  top: 38%;
+  position: fixed;
+  left: 46%;
   width: 60px;
   height: 60px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(10) {
-  top: 76%;
+  top: 31%;
   position: fixed;
-  left: 84%;
+  left: 6%;
+  width: 60px;
+  height: 60px;
+  animation: movimiento2 15s infinite linear;
+}
+
+.float:nth-child(10) {
+  top: 23%;
+  position: fixed;
+  left: 16%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(11) {
-  top: 4%;
+  top: 72%;
   position: fixed;
-  left: 36%;
+  left: 3%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(12) {
-  top: 79%;
+  top: 67%;
   position: fixed;
-  left: 17%;
+  left: 60%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(13) {
-  top: 45%;
+  top: 70%;
   position: fixed;
-  left: 27%;
+  left: 20%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(14) {
-  top: 23%;
+  top: 92%;
   position: fixed;
-  left: 10%;
+  left: 52%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(15) {
-  top: 26%;
+  top: 97%;
   position: fixed;
-  left: 33%;
+  left: 47%;
   width: 70px;
   height: 70px;
   animation: movimiento 15s infinite linear;
 }
 
 .float:nth-child(15) {
-  top: 6%;
+  top: 5%;
   position: fixed;
-  left: 72%;
+  left: 7%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(16) {
-  top: 5%;
+  top: 87%;
   position: fixed;
-  left: 12%;
+  left: 68%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(17) {
-  top: 92%;
+  top: 73%;
   position: fixed;
-  left: 16%;
+  left: 87%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(18) {
-  top: 54%;
+  top: 80%;
   position: fixed;
-  left: 96%;
+  left: 26%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(19) {
-  top: 16%;
+  top: 52%;
   position: fixed;
-  left: 9%;
+  left: 42%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
 }
 
 .float:nth-child(20) {
-  top: 43%;
+  top: 29%;
   position: fixed;
-  left: 46%;
+  left: 98%;
   width: 80px;
   height: 80px;
   animation: movimiento2 15s infinite linear;
@@ -508,6 +508,18 @@ body {
 }
 #main #proyectos .contenedor .proyectos:nth-child(1) {
   background: url(../Img/pagina1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#main #proyectos .contenedor .proyectos:nth-child(2) {
+  background: url(../Img/pagina2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#main #proyectos .contenedor .proyectos:nth-child(3) {
+  background: url(../Img/pagina3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
