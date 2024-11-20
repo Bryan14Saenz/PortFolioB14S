@@ -21,6 +21,9 @@ $colorSexto: #555555;
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #fff #000;
 }
 
 // Div transparentes estilos
@@ -71,6 +74,11 @@ $colorSexto: #555555;
     height: 80px;
     animation: movimiento2 15s infinite linear;
   }
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 // Header
@@ -261,8 +269,6 @@ $colorSexto: #555555;
   width: 100%;
   padding: 20px;
   background-color: $colorPrimario;
-  border-top: 1px solid $colorTerciario;
-  border-bottom: 1px solid $colorTerciario;
 
   #sobreMi {
     position: relative;
@@ -292,6 +298,7 @@ $colorSexto: #555555;
       gap: 10px;
 
       button {
+        border: none;
         font-size: 1.5rem;
         padding: 5px 10px;
         border-radius: 10px;
@@ -356,7 +363,7 @@ $colorSexto: #555555;
     color: $colorSecundario;
 
     h3 {
-      font-size: 3rem;
+      font-size: 4rem;
     }
 
     .contenedor {
@@ -487,6 +494,110 @@ $colorSexto: #555555;
   }
 }
 
+// Media Queries
+@media screen and (max-width: 350px) {
+  #header {
+    .sidebar {
+      display: none;
+    }
+
+    .inicio {
+      width: 100%;
+
+      .redes {
+        ul {
+          li {
+            a {
+              padding: 0px;
+            }
+          }
+        }
+      }
+
+      .contenido {
+        margin-top: 20px;
+
+        .presentación {
+          flex-direction: column;
+          margin: 20px auto;
+
+          .texto {
+            h1 {
+              font-size: 3rem;
+            }
+          }
+        }
+
+        .img {
+          margin: 20px auto;
+        }
+      }
+    }
+  }
+
+  #main {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+
+    #sobreMi {
+      height: auto;
+
+      p {
+        width: 100%;
+        height: 300px;
+      }
+
+      .masDetalles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 400px;
+        gap: 20px;
+      }
+    }
+
+    #habilidades {
+      padding: 0px;
+      height: auto;
+
+      .contenedor {
+        grid-template-columns: 1fr;
+        width: 100%;
+        box-shadow: none;
+      }
+    }
+
+    #proyectos {
+      padding: 0px;
+
+      .contenedor {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        padding: 0px;
+        box-shadow: none;
+
+        .proyectos {
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height: 200px;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .contenedor {
+      grid-template-columns: repeat(1, 1fr);
+      height: 260px;
+      padding: 20px;
+    }
+
+    .contacto {
+      margin-top: 200px;
+    }
+  }
+}
 // Clases para animaciones
 .scale-up-hor-center {
   animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both

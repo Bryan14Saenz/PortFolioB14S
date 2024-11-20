@@ -1,5 +1,3 @@
-AOS.init();
-
 $(function () {
     // Función para cambiar el modo de color
     $('#modoColor').on('click', function () {
