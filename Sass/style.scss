@@ -517,7 +517,13 @@ body{
 }
 
 // Media Queries
+
 @media screen and (max-width: 750px) {
+  body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
   #header {
     .sidebar {
       display: none;
@@ -531,6 +537,7 @@ body{
           li {
             a {
               padding: 0px;
+              font-size: 1.5rem;
             }
           }
         }
@@ -545,7 +552,7 @@ body{
 
           .texto {
             h1 {
-              font-size: 3rem;
+              font-size: 2rem;
             }
           }
         }
@@ -558,14 +565,15 @@ body{
   }
 
   #main {
-    height: auto;
-    width: 100%;
     padding: 0px;
 
     #sobreMi {
+      width: 80%;
       height: auto;
+      margin: 0px auto;
 
       p {
+        overflow: scroll;
         width: 100%;
         height: 300px;
       }
@@ -573,23 +581,22 @@ body{
       .masDetalles {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: 400px;
         gap: 20px;
       }
     }
 
     #habilidades {
       padding: 0px;
-      height: auto;
 
       .contenedor {
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 80%;
         box-shadow: none;
       }
     }
 
     #proyectos {
+      margin: auto 20px;
       padding: 0px;
 
       .contenedor {
@@ -600,27 +607,15 @@ body{
 
         .proyectos {
           justify-content: center;
-          align-items: flex-start;
-          background: url(../Img/pagina1.png);
-          width: 100%;
-          height: 200px;
+          align-items: center;
+          width: 80%;
+          margin: 0px auto;
         }
       }
     }
   }
-
-  #footer {
-    .contenedor {
-      grid-template-columns: repeat(1, 1fr);
-      height: 260px;
-      padding: 20px;
-    }
-
-    .contacto {
-      margin-top: 200px;
-    }
-  }
 }
+
 // Clases para animaciones
 .scale-up-hor-center {
   animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both
